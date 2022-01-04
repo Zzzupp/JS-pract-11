@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 600px;
+    margin: 120px 160px;
+}
+.top-btm{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    border: 1px grey solid;
+}
+
+.top-btm button{
+    width: 100px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.top-btm button:hover{
+    background-color: rgb(155, 155, 155);
+}
+
+.top-btm .active{
+    background-color: grey
+}
+
+.bottom-content{
+    width: 600px;
+    background-color: grey;
+    padding: 20px 10px;
+    position: relative;
+    height: 200px
+}
+.bottom-content div{
+    visibility: hidden;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.bottom-content .active{
+    visibility: visible;
+}
