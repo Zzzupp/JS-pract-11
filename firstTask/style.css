@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+.square{
+    width: 700px;
+    padding-top: 130px;
+    height: 300px;
+    border: 3px solid blue;
+}
+
+.hour{
+    color: blue
+}
+.minute{
+    color: green
+}
+
+.second{
+    color: red
+}
